@@ -1,11 +1,11 @@
-import Image from "next/image"
-import { Compass } from "lucide-react"
+import Image from "next/image";
+import { Compass } from "lucide-react";
 
 export default function WhyChooseSection() {
   const features = [
     {
       title: "Exclusive Resort Plots",
-      description: "Offering 300 & 500-yard luxury resort spaces",
+      description: "Offering 200, 300 & 500-yard luxury resort spaces",
     },
     {
       title: "Scenic Location",
@@ -13,21 +13,24 @@ export default function WhyChooseSection() {
     },
     {
       title: "Luxury Clubhouse",
-      description: "Featuring fine dining, a lounge, wellness spa, and recreational activities",
+      description:
+        "Featuring fine dining, a lounge, wellness spa, and recreational activities",
     },
     {
       title: "Grand Wedding & Event Spaces",
-      description: "Host destination weddings & corporate events in a dream setting",
+      description:
+        "Host destination weddings & corporate events in a dream setting",
     },
     {
       title: "Pollution-Free Living",
-      description: "Escape the high AQI of city life and breathe fresh mountain air",
+      description:
+        "Escape the high AQI of city life and breathe fresh mountain air",
     },
     {
       title: "Ideal for Investment & Holiday Homes",
       description: "Own a piece of paradise in the mountains",
     },
-  ]
+  ];
 
   return (
     <section className="bg-[#FDF6F0] py-12 sm:py-16 md:py-24">
@@ -63,7 +66,9 @@ export default function WhyChooseSection() {
                       <Compass className="w-5 h-5 text-[#1B4332]" />
                     </div>
                     <div>
-                      <h3 className="text-lg sm:text-xl font-medium text-[#1B4332] mb-1">{feature.title}</h3>
+                      <h3 className="text-lg sm:text-xl font-medium text-[#1B4332] mb-1">
+                        {feature.title}
+                      </h3>
                       <p className="text-gray-600">{feature.description}</p>
                     </div>
                   </div>
@@ -74,6 +79,5 @@ export default function WhyChooseSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-

@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/image";
 
 export default function FeaturedSection() {
   return (
@@ -6,9 +6,15 @@ export default function FeaturedSection() {
       <div className="container mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-12 sm:mb-16">
-          <p className="text-[#1B4332] text-base sm:text-lg mb-2 sm:mb-4">Avon Hills Presents</p>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif mb-4 sm:mb-6">Rajaji National Park</h2>
+          <p className="text-[#1B4332] text-base sm:text-lg mb-2 sm:mb-4">
+            Avon Hills Presents
+          </p>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif mb-4 sm:mb-6">
+            Rajaji National Park
+          </h2>
           <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-4">
+            <span className="text-lg sm:text-xl">200 Yards</span>
+            <span className="text-lg sm:text-xl">|</span>
             <span className="text-lg sm:text-xl">300 Yards</span>
             <span className="text-lg sm:text-xl">|</span>
             <span className="text-lg sm:text-xl">500 Yards</span>
@@ -29,7 +35,6 @@ export default function FeaturedSection() {
                 fill
                 className="object-cover transition-transform duration-300 hover:scale-110"
               />
-             
             </div>
           </div>
 
@@ -42,7 +47,6 @@ export default function FeaturedSection() {
                 fill
                 className="object-cover transition-transform duration-300 hover:scale-110"
               />
-             
             </div>
           </div>
 
@@ -55,12 +59,10 @@ export default function FeaturedSection() {
                 fill
                 className="object-cover transition-transform duration-300 hover:scale-110"
               />
-             
             </div>
           </div>
         </div>
       </div>
     </section>
-  )
+  );
 }
-
