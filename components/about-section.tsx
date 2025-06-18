@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/image";
 
 export default function AboutSection() {
   return (
@@ -17,12 +17,18 @@ export default function AboutSection() {
               </div>
 
               <div className="space-y-4 sm:space-y-6">
-                <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif">About Us</h2>
-                <h3 className="text-lg sm:text-xl text-gray-700">Urban Group Presents Avon Hills Resort</h3>
+                <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif">
+                  About Us
+                </h2>
+                <h3 className="text-lg sm:text-xl text-gray-700">
+                  Avon Hills Resort
+                </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  At Urban Group, we create premium spaces that blend luxury, nature, and sustainability. Our latest
-                  venture, Avon Hills Resort, is a one-of-a-kind mountain retreat in Rajaji National Park, near
-                  Dehradun, designed for those seeking peace, relaxation, and investment opportunities.
+                  With a legacy of delivering secure and beautiful living
+                  spaces, we specialize in premium real estate projects tailored
+                  for second homes, vacation getaways, or smart investments. Our
+                  commitment lies in offering properties that blend nature,
+                  comfort, and profitability seamlessly.
                 </p>
               </div>
             </div>
@@ -56,6 +62,5 @@ export default function AboutSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-

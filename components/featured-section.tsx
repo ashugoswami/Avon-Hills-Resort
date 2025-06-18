@@ -10,7 +10,7 @@ export default function FeaturedSection() {
             Avon Hills Presents
           </p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif mb-4 sm:mb-6">
-            Rajaji National Park
+            Luxury Resort Spaces
           </h2>
           <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-4">
             <span className="text-lg sm:text-xl">200 Yards</span>

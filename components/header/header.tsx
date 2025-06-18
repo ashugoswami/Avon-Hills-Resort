@@ -1,20 +1,20 @@
-"use client"
+"use client";
 
-import Link from "next/link"
-import Image from "next/image"
-import { Phone, Menu, X } from "lucide-react"
-import { useState } from "react"
+import Link from "next/link";
+import Image from "next/image";
+import { Phone, Menu, X } from "lucide-react";
+import { useState } from "react";
 
 export default function Header() {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const scrollToSection = (sectionId: string) => {
-    setIsMobileMenuOpen(false)
-    const section = document.getElementById(sectionId)
+    setIsMobileMenuOpen(false);
+    const section = document.getElementById(sectionId);
     if (section) {
-      section.scrollIntoView({ behavior: "smooth" })
+      section.scrollIntoView({ behavior: "smooth" });
     }
-  }
+  };
 
   return (
     <header className="fixed top-0 left-0 right-0 bg-white shadow-sm z-50">
@@ -59,7 +59,10 @@ export default function Header() {
 
           {/* Center Logo */}
           <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
-            <Link href="/" className="flex-shrink-0 transition-transform duration-300 hover:scale-105">
+            <Link
+              href="/"
+              className="flex-shrink-0 transition-transform duration-300 hover:scale-105"
+            >
               <Image
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Logo-mzukfX1oqdegfHzmUnfws89ILTgkPu.png"
                 alt="Avon Hills Resort"
@@ -102,7 +105,7 @@ export default function Header() {
               className="flex items-center text-[#1B4332] hover:text-[#2D6A4F] transition-colors duration-300"
             >
               <Phone className="w-4 h-4 mr-2" />
-              <span className="text-sm font-medium">706-574-5656</span>
+              <span className="text-sm font-medium">+91 759-973-1055</span>
             </a>
           </nav>
 
@@ -205,6 +208,5 @@ export default function Header() {
         </div>
       </div>
     </header>
-  )
+  );
 }
-
