@@ -95,7 +95,11 @@ export default function InquiryForm({ onClose }: InquiryFormProps) {
               required
               className="mt-1"
             />
-            <label htmlFor="privacy" className="text-sm sm:text-base">
+            <label
+              htmlFor="privacy"
+              className="text-sm sm:text-base"
+              style={{ fontWeight: "600" }}
+            >
               I hereby authorize the sending of notifications via SMS, email,
               RCS, and other communication channels, in accordance with the
               Terms of Service and Privacy Policy
