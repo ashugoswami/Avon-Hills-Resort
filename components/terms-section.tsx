@@ -24,18 +24,18 @@ export default function TermsSection() {
           </div>
           <p className="text-lg sm:text-xl text-gray-600">
             Avon Hills Resort and its affiliates (“Avon Hills Resort” or “we” or
-            “us” or “our”) provide https://allsmscom.in/ as well as the other
-            websites we operate (collectively, the “Website/s”) to you subject
-            to these Website Terms and Conditions of Use (“Terms”), which may be
-            updated by us from time to time pursuant to Section 1 herein. By
-            accessing and using the Websites, you (“you” or “your”) accept and
-            agree to be bound by these Terms, our Privacy Policy, and other
-            Policies as applicable. If you do not agree to these Terms, you
-            should not access or use the Websites. In addition, when accessing
-            the Websites you shall be subject to any posted guidelines or rules
-            applicable to the Websites, which may be posted and modified from
-            time to time. All such guidelines or rules are hereby incorporated
-            by reference into these Terms.
+            “us” or “our”) provide https://www.avonhillsressort.in/ as well as
+            the other websites we operate (collectively, the “Website/s”) to you
+            subject to these Website Terms and Conditions of Use (“Terms”),
+            which may be updated by us from time to time pursuant to Section 1
+            herein. By accessing and using the Websites, you (“you” or “your”)
+            accept and agree to be bound by these Terms, our Privacy Policy, and
+            other Policies as applicable. If you do not agree to these Terms,
+            you should not access or use the Websites. In addition, when
+            accessing the Websites you shall be subject to any posted guidelines
+            or rules applicable to the Websites, which may be posted and
+            modified from time to time. All such guidelines or rules are hereby
+            incorporated by reference into these Terms.
           </p>
           <p className="text-lg sm:text-xl text-gray-600 mt-4">
             These Terms do not apply to your access to and use of the products
