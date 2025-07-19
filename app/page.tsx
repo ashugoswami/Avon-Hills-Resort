@@ -1,14 +1,16 @@
-import Header from "@/components/header/header"
-import Hero from "@/components/hero/hero"
-import AboutSection from "@/components/about-section"
-import FeaturedSection from "@/components/featured-section"
-import WhyChooseSection from "@/components/why-choose-section"
-import KeyDistanceSection from "@/components/key-distance-section"
-import KeyHighlightsSection from "@/components/key-highlights-section"
-import MasterPlanSection from "@/components/master-plan-section"
-import ResortPlanSection from "@/components/resort-plan-section"
-import ResortAmenitiesSection from "@/components/resort-amenities-section"
-import ContactSection from "@/components/contact-section"
+import Header from "@/components/header/header";
+import Hero from "@/components/hero/hero";
+import AboutSection from "@/components/about-section";
+import FeaturedSection from "@/components/featured-section";
+import WhyChooseSection from "@/components/why-choose-section";
+import KeyDistanceSection from "@/components/key-distance-section";
+import KeyHighlightsSection from "@/components/key-highlights-section";
+import MasterPlanSection from "@/components/master-plan-section";
+import ResortPlanSection from "@/components/resort-plan-section";
+import ResortAmenitiesSection from "@/components/resort-amenities-section";
+import ContactSection from "@/components/contact-section";
+import TermsSection from "@/components/terms-section";
+import PrivacySection from "@/components/privacy-section";
 
 export default function Home() {
   return (
@@ -43,8 +45,13 @@ export default function Home() {
         <section id="contact">
           <ContactSection />
         </section>
+        <section id="terms">
+          <TermsSection />
+        </section>
+        <section id="privacy">
+          <PrivacySection />
+        </section>
       </main>
     </>
-  )
+  );
 }
-

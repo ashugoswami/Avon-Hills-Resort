@@ -1,32 +1,32 @@
-"use client"
+"use client";
 
-import { useState } from "react"
-import { X } from "lucide-react"
-import { Input } from "@/components/ui/input"
-import { Label } from "@/components/ui/label"
-import { Textarea } from "@/components/ui/textarea"
-import { Button } from "@/components/ui/button"
-import { useToast } from "@/components/ui/use-toast"
+import { useState } from "react";
+import { X } from "lucide-react";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+import { Button } from "@/components/ui/button";
+import { useToast } from "@/components/ui/use-toast";
 
 interface InquiryFormProps {
-  onClose: () => void
+  onClose: () => void;
 }
 
 export default function InquiryForm({ onClose }: InquiryFormProps) {
-  const [isSubmitting, setIsSubmitting] = useState(false)
-  const { toast } = useToast()
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const { toast } = useToast();
 
   const handleSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
-    event.preventDefault()
-    setIsSubmitting(true)
+    event.preventDefault();
+    setIsSubmitting(true);
 
-    const formData = new FormData(event.currentTarget)
+    const formData = new FormData(event.currentTarget);
     const data = {
       name: formData.get("name"),
       email: formData.get("email"),
       phone: formData.get("phone"),
       message: formData.get("message"),
-    }
+    };
 
     try {
       const response = await fetch("/api/contact", {
@@ -35,27 +35,27 @@ export default function InquiryForm({ onClose }: InquiryFormProps) {
           "Content-Type": "application/json",
         },
         body: JSON.stringify(data),
-      })
+      });
 
       if (!response.ok) {
-        throw new Error("Failed to send inquiry")
+        throw new Error("Failed to send inquiry");
       }
 
       toast({
         title: "Success",
         description: "Your inquiry has been sent successfully!",
-      })
-      onClose()
+      });
+      onClose();
     } catch (error) {
       toast({
         title: "Error",
         description: "Failed to send inquiry. Please try again later.",
         variant: "destructive",
-      })
+      });
     } finally {
-      setIsSubmitting(false)
+      setIsSubmitting(false);
     }
-  }
+  };
 
   return (
     <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
@@ -67,7 +67,9 @@ export default function InquiryForm({ onClose }: InquiryFormProps) {
         >
           <X className="w-6 h-6" />
         </button>
-        <h2 className="text-2xl font-bold mb-4 text-[#1B4332]">Make an Inquiry</h2>
+        <h2 className="text-2xl font-bold mb-4 text-[#1B4332]">
+          Make an Inquiry
+        </h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <Label htmlFor="name">Name</Label>
@@ -85,12 +87,29 @@ export default function InquiryForm({ onClose }: InquiryFormProps) {
             <Label htmlFor="message">Message</Label>
             <Textarea id="message" name="message" required />
           </div>
-          <Button type="submit" className="w-full bg-[#1B4332] hover:bg-[#2D6A4F] text-white" disabled={isSubmitting}>
+          <div className="flex items-start space-x-2">
+            <input
+              type="checkbox"
+              id="privacy"
+              name="privacy"
+              required
+              className="mt-1"
+            />
+            <label htmlFor="privacy" className="text-sm sm:text-base">
+              I hereby authorize the sending of notifications via SMS, email,
+              RCS, and other communication channels, in accordance with the
+              Terms of Service and Privacy Policy
+            </label>
+          </div>
+          <Button
+            type="submit"
+            className="w-full bg-[#1B4332] hover:bg-[#2D6A4F] text-white"
+            disabled={isSubmitting}
+          >
             {isSubmitting ? "Sending..." : "Send Inquiry"}
           </Button>
         </form>
       </div>
     </div>
-  )
+  );
 }
-

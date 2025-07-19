@@ -194,6 +194,21 @@ export default function ContactSection() {
                     />
                   </div>
 
+                  <div className="flex items-start space-x-2">
+                    <input
+                      type="checkbox"
+                      id="terms"
+                      name="terms"
+                      required
+                      className="mt-1"
+                    />
+                    <label htmlFor="terms" className="text-sm sm:text-base">
+                      I hereby authorize the sending of notifications via SMS,
+                      email, RCS, and other communication channels, in
+                      accordance with the Terms of Service and Privacy Policy
+                    </label>
+                  </div>
+
                   <Button
                     type="submit"
                     size="lg"
