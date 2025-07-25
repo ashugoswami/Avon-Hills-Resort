@@ -23,10 +23,10 @@ export default function TermsSection() {
             </h2>
           </div>
           <p className="text-lg sm:text-xl text-gray-600">
-            Avon Hills Resort and its affiliates (“Avon Hills Resort” or “we” or
-            “us” or “our”) provide https://www.avonhillsressort.in/ as well as
-            the other websites we operate (collectively, the “Website/s”) to you
-            subject to these Website Terms and Conditions of Use (“Terms”),
+            Avon Hills Ressort and its affiliates (“Avon Hills Ressort” or “we”
+            or “us” or “our”) provide https://www.avonhillsressort.in/ as well
+            as the other websites we operate (collectively, the “Website/s”) to
+            you subject to these Website Terms and Conditions of Use (“Terms”),
             which may be updated by us from time to time pursuant to Section 1
             herein. By accessing and using the Websites, you (“you” or “your”)
             accept and agree to be bound by these Terms, our Privacy Policy, and
@@ -44,7 +44,7 @@ export default function TermsSection() {
             collect, and use electronic data, text, messages, communications or
             other materials submitted to and stored within the Services by you
             are detailed in and governed by our Terms of Service, or such other
-            applicable agreement between you Avon Hills Resort relating to your
+            applicable agreement between you Avon Hills Ressort relating to your
             access to and use of such Services.
           </p>
           <Button
@@ -90,7 +90,7 @@ export default function TermsSection() {
                 all charges related to the same. You will be responsible for the
                 confidentiality and use of your Credentials and agree not to
                 transfer or resell your use of or access to the Websites to any
-                third party. You agree to notify Avon Hills Resort immediately
+                third party. You agree to notify Avon Hills Ressort immediately
                 of any unauthorized use of your Credentials or any other breach
                 of security. YOU ARE ENTIRELY RESPONSIBLE FOR MAINTAINING THE
                 CONFIDENTIALITY OF YOUR CREDENTIALS AND FOR ANY AND ALL
@@ -131,14 +131,14 @@ export default function TermsSection() {
                 any damage resulting from any infringement of copyrights,
                 trademarks, trade secrets, rights of publicity, or other
                 proprietary rights or any other harm resulting from such a
-                submission. Any person determined by Avon Hills Resort, in its
+                submission. Any person determined by Avon Hills Ressort, in its
                 sole discretion, to have violated the intellectual property or
                 other rights of others shall be barred from submitting or
                 posting any further material on the Websites.
               </p>
               <p className="text-lg sm:text-xl text-gray-600 mt-4">
                 4.3 You agree not to represent or suggest, directly or
-                indirectly, Avon Hills Resort’s endorsement of User Content.
+                indirectly, Avon Hills Ressort’s endorsement of User Content.
               </p>
               <p className="text-lg sm:text-xl text-gray-600 mt-4">
                 4.4 Any conduct that we, in our sole discretion, believe
@@ -172,8 +172,8 @@ export default function TermsSection() {
                 any time and for any reason, and you are solely responsible for
                 creating backup copies of and replacing any User Content posted
                 to the Websites at your sole cost and expense. The decision by
-                Avon Hills Resort to monitor and/or modify User Content does not
-                constitute nor shall it be deemed to constitute any
+                Avon Hills Ressort to monitor and/or modify User Content does
+                not constitute nor shall it be deemed to constitute any
                 responsibility or liability in any manner on our part in
                 connection with or arising from your use of Interactive Areas on
                 the Websites.
@@ -229,7 +229,7 @@ export default function TermsSection() {
               </p>
               <p className="text-lg sm:text-xl text-gray-600 mt-4">
                 (A) YOU EXPRESSLY AGREE THAT USE OF THE WEBSITES IS AT YOUR SOLE
-                RISK. NEITHER Avon Hills Resort NOR ANY OF ITS EMPLOYEES,
+                RISK. NEITHER Avon Hills Ressort NOR ANY OF ITS EMPLOYEES,
                 AGENTS, THIRD-PARTY CONTENT PROVIDERS, THIRD-PARTY SERVICE
                 PROVIDERS, OR LICENSORS WARRANT THAT USE OF THE WEBSITES WILL BE
                 UNINTERRUPTED OR ERROR-FREE; NOR DO THEY MAKE ANY WARRANTY AS TO
@@ -249,7 +249,7 @@ export default function TermsSection() {
               </p>
               <p className="text-lg sm:text-xl text-gray-600 mt-4">
                 (C) TO THE FULLEST EXTENT PERMISSIBLE BY APPLICABLE LAW, IN NO
-                EVENT WILL Avon Hills Resort BE LIABLE TO YOU FOR ANY PERSONAL
+                EVENT WILL Avon Hills Ressort BE LIABLE TO YOU FOR ANY PERSONAL
                 INJURY, PROPERTY DAMAGE, LOST PROFITS, COST OF SUBSTITUTE GOODS
                 OR SERVICES, LOSS OF DATA, LOSS OF GOODWILL, WORK STOPPAGE,
                 COMPUTER AND/OR DEVICE OR TECHNOLOGY FAILURE OR MALFUNCTION OR
@@ -266,9 +266,9 @@ export default function TermsSection() {
                 ALLEGATIONS ARE FOR BREACH OF CONTRACT, TORTIOUS BEHAVIOR,
                 NEGLIGENCE, OR FALL UNDER ANY OTHER CAUSE OF ACTION, REGARDLESS
                 OF THE BASIS UPON WHICH LIABILITY IS CLAIMED AND EVEN IF Avon
-                Hills Resort HAD BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS OR
-                DAMAGE. WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, YOU
-                ALSO SPECIFICALLY ACKNOWLEDGE THAT Avon Hills Resort IS NOT
+                Hills Ressort HAD BEEN ADVISED OF THE POSSIBILITY OF SUCH LOSS
+                OR DAMAGE. WITHOUT LIMITING THE GENERALITY OF THE FOREGOING, YOU
+                ALSO SPECIFICALLY ACKNOWLEDGE THAT Avon Hills Ressort IS NOT
                 LIABLE FOR ANY ACTUAL OR ALLEGED DEFAMATORY, OFFENSIVE, OR
                 ILLEGAL CONDUCT OF OTHER USERS OF THE WEBSITES OR ANY OTHER
                 THIRD PARTIES.
@@ -287,7 +287,7 @@ export default function TermsSection() {
               </p>
               <p className="text-lg sm:text-xl text-gray-600 mt-4">
                 7. Indemnification:You agree to defend, indemnify and hold
-                harmless Avon Hills Resort, its parent corporation, officers,
+                harmless Avon Hills Ressort, its parent corporation, officers,
                 directors, employees and agents, from and against any and all
                 claims, damages, obligations, losses, liabilities, costs or
                 debt, and expenses (including but not limited to attorney’s
@@ -297,11 +297,11 @@ export default function TermsSection() {
                 limitation any copyright, property, or privacy right; or (iv)
                 any claim that caused damage to a third party. This defense and
                 indemnification obligation will survive these Terms of Service
-                and your use of the Websites. Avon Hills Resort reserves the
+                and your use of the Websites. Avon Hills Ressort reserves the
                 right to take over the exclusive defense of any claim for which
                 we are entitled to indemnification under this section. In such
-                event, you shall provide Avon Hills Resort with such cooperation
-                as is reasonably requested by Avon Hills Resort
+                event, you shall provide Avon Hills Ressort with such
+                cooperation as is reasonably requested by Avon Hills Ressort
               </p>
               <p className="text-lg sm:text-xl text-gray-600 mt-4">
                 8. Termination Survival:We may terminate or suspend these Terms
@@ -324,7 +324,7 @@ export default function TermsSection() {
                 India applicable to contracts made, entered into and performed
                 entirely therein, without giving effect to its conflict of laws
                 provisions. If a lawsuit or court proceeding is permitted under
-                these Terms, then you and Avon Hills Resort agree to submit to
+                these Terms, then you and Avon Hills Ressort agree to submit to
                 the personal and exclusive jurisdiction of the courts located in
                 New Delhi, India for the purpose of litigating any dispute. YOU
                 AGREE THAT ANY CAUSE OF ACTION ARISING OUT OF OR RELATED TO THE
@@ -337,8 +337,8 @@ export default function TermsSection() {
               </p>
               <p className="text-lg sm:text-xl text-gray-600 mt-4">
                 10.1 Generally: In the interest of resolving disputes between
-                you and Avon Hills Resort in the most expedient and
-                cost-effective manner, you and Avon Hills Resort agree that,
+                you and Avon Hills Ressort in the most expedient and
+                cost-effective manner, you and Avon Hills Ressort agree that,
                 unless prohibited by law, every dispute arising in connection
                 with these Terms will be resolved by binding arbitration. This
                 agreement to arbitrate disputes includes all claims arising out
@@ -346,7 +346,7 @@ export default function TermsSection() {
                 contract, tort, statute, fraud, misrepresentation, or any other
                 legal theory and regardless of whether a claim arises during or
                 after the termination of these Terms. YOU UNDERSTAND AND AGREE
-                THAT, BY ENTERING INTO THESE TERMS, YOU AND Avon Hills Resort
+                THAT, BY ENTERING INTO THESE TERMS, YOU AND Avon Hills Ressort
                 ARE EACH WAIVING THE RIGHT TO A TRIAL BY JURY OR TO PARTICIPATE
                 IN A CLASS ACTION.
               </p>
@@ -365,7 +365,7 @@ export default function TermsSection() {
                 or related to these Terms.
               </p>
               <p className="text-lg sm:text-xl text-gray-600 mt-4">
-                11. Copyrights and Copyright Agent: Avon Hills Resort and its
+                11. Copyrights and Copyright Agent: Avon Hills Ressort and its
                 Affiliates respect others’ intellectual property rights and
                 expect users and customers to do the same. We reserve the right
                 to terminate access to the Websites for users or customers who
@@ -386,13 +386,13 @@ export default function TermsSection() {
                 viruses, malware, or other harmful software(s)/component(s).
               </p>
               <p className="text-lg sm:text-xl text-gray-600 mt-4">
-                13. Assignment: Avon Hills Resort may assign these Terms of Use
+                13. Assignment: Avon Hills Ressort may assign these Terms of Use
                 and/or part thereof at its sole discretion, at any time, to any
                 of its affiliates, group companies, holding company, subsidiary
                 companies, third parties without any notice to the
                 Client/Customer. However, the Client/Customer shall not assign
                 these Terms of Use or any part thereof to any party without
-                taking prior written consent of the Avon Hills Resort.
+                taking prior written consent of the Avon Hills Ressort.
               </p>
               <p className="text-lg sm:text-xl text-gray-600 mt-4">
                 14. Miscellaneous:These Terms and any operating rules for the
@@ -400,7 +400,7 @@ export default function TermsSection() {
                 the parties with respect to the subject matter hereof, and
                 supersede all previous written or oral agreements between the
                 parties with respect to such subject matter. The provisions of
-                these Terms are for the benefit of Avon Hills Resort and its
+                these Terms are for the benefit of Avon Hills Ressort and its
                 third-party content providers and licensors and each shall have
                 the right to assert and enforce such provisions directly or on
                 its own behalf. No waiver by either party of any breach or
@@ -418,7 +418,7 @@ export default function TermsSection() {
                 concerns regarding this Agreement, please contact us at
                 avonhillsressort@gmail.com All communications or notices
                 permitted or required to be given or served to the Avon Hills
-                Resort under these Terms and Conditions of Use shall be in
+                Ressort under these Terms and Conditions of Use shall be in
                 writing.
               </p>
               <p className="text-lg sm:text-xl text-gray-600 mt-4">

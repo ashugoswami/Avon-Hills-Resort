@@ -23,24 +23,24 @@ export default function PrivacySection() {
             </h2>
           </div>
           <p className="text-lg sm:text-xl text-gray-600">
-            This policy (“Privacy Policy”) applies to Avon Hills Resort and all
+            This policy (“Privacy Policy”) applies to Avon Hills Ressort and all
             its subsidiaries and/or branch offices in India. It provides the
-            practices and policies applicable to Avon Hills Resort (including
+            practices and policies applicable to Avon Hills Ressort (including
             its employees, interns, contractors, consultants, clients, customers
             or any other party directly or indirectly engaged for business or
             otherwise) for handling or dealing in Personal Information,
             including Sensitive Personal Data or Information (as defined below)
-            that is lawfully collected by Avon Hills Resort, with this referred
-            to as Avon Hills Resort. We collect personal data of our employees,
+            that is lawfully collected by Avon Hills Ressort, with this referred
+            to as Avon Hills Ressort. We collect personal data of our employees,
             potential employees, clients, suppliers, business contacts,
             shareholders and website users or any other individual or entities
             wherever required for business purposes or otherwise.
           </p>
           <p className="text-lg sm:text-xl text-gray-600 mt-4">
-            Avon Hills Resort attaches great importance to your right to privacy
-            and the protection of your data. We want you to feel secure that
-            when you deal with Avon Hills Resort, your personal data are in good
-            hands.
+            Avon Hills Ressort attaches great importance to your right to
+            privacy and the protection of your data. We want you to feel secure
+            that when you deal with Avon Hills Ressort, your personal data are
+            in good hands.
           </p>
           <Button
             type="submit"
@@ -53,7 +53,7 @@ export default function PrivacySection() {
           {isSubmitting && (
             <>
               <p className="text-lg sm:text-xl text-gray-600">
-                Avon Hills Resort protects your personal data following
+                Avon Hills Ressort protects your personal data following
                 applicable laws and our data privacy policies. In addition, All
                 Sms Communications maintains the appropriate technical and
                 organizational measures to protect your personal data against
@@ -77,7 +77,7 @@ export default function PrivacySection() {
               <p className="text-lg sm:text-xl text-gray-600 mt-4">
                 Information shall mean and include Personal Information and
                 Sensitive Personal Data and Information as may be collected by
-                Avon Hills Resort.
+                Avon Hills Ressort.
               </p>
               <p className="text-lg sm:text-xl text-gray-600 mt-4">
                 Personal Information (PI) shall have the same meaning as under
@@ -95,7 +95,7 @@ export default function PrivacySection() {
               </p>
               <p className="text-lg sm:text-xl text-gray-600 mt-4">
                 Registered User shall mean such user whose registration is
-                accepted by Avon Hills Resort.
+                accepted by Avon Hills Ressort.
               </p>
               <p className="text-lg sm:text-xl text-gray-600 mt-4">
                 Sensitive Personal Data and Information (SPDI) shall mean and
@@ -113,7 +113,7 @@ export default function PrivacySection() {
                 respectively assigned to them in the Act or the Rules.
               </p>
               <p className="text-lg sm:text-xl text-gray-600 mt-4">
-                Avon Hills Resort is fully committed to respecting your privacy
+                Avon Hills Ressort is fully committed to respecting your privacy
                 and shall ensure that your Information is safe. This privacy
                 policy sets out the practices adopted in respect of Information,
                 including the types of Information that is collected, how the

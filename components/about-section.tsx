@@ -21,7 +21,7 @@ export default function AboutSection() {
                   About Us
                 </h2>
                 <h3 className="text-lg sm:text-xl text-gray-700">
-                  Avon Hills Resort
+                  Avon Hills Ressort
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
                   With a legacy of delivering secure and beautiful living

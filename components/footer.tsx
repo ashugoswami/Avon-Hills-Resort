@@ -29,7 +29,7 @@ export default function Footer() {
             />
             <p className="text-gray-600 mb-4 sm:mb-6 max-w-sm">
               Experience luxury living in the heart of nature at Avon Hills
-              Resort. Our premium spaces blend comfort, sustainability, and
+              Ressort. Our premium spaces blend comfort, sustainability, and
               breathtaking views.
             </p>
             <div className="flex space-x-4">
@@ -124,7 +124,7 @@ export default function Footer() {
                 <span className="text-[#1B4332] mr-2 font-semibold">
                   Website:
                 </span>
-                <span className="text-gray-600">avonhillsresort.com</span>
+                <span className="text-gray-600">avonhillsressort.in</span>
               </li>
               <li className="flex items-start transition-transform duration-300 hover:translate-x-2">
                 {/* <span className="text-[#1B4332] mr-2">📞</span> */}
@@ -150,8 +150,8 @@ export default function Footer() {
                   Address:
                 </span>
                 <span className="text-gray-600">
-                  Near Hydel Colony, Shivalik Hills, Badshahi Bagh, Saharanpur +
-                  247122 (U.P.), INDIA
+                  Shivalik Hills, Badshahi Bagh, Near Hydel Colony, Saharanpur
+                  Uttar Pradesh 247122
                 </span>
               </li>
             </ul>
@@ -187,7 +187,8 @@ export default function Footer() {
         {/* Copyright */}
         <div className="text-center">
           <p className="text-gray-600 text-sm sm:text-base">
-            © {new Date().getFullYear()} Avon Hills Resort. All rights reserved.
+            © {new Date().getFullYear()} Avon Hills Ressort. All rights
+            reserved.
           </p>
         </div>
       </div>

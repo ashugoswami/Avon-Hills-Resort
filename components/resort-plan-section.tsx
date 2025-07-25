@@ -9,7 +9,7 @@ export default function ResortPlanSection() {
     "Ample open spaces for a peaceful retreat",
     "Gated and secured community with 24/7 surveillance",
     "Power backup for uninterrupted comfort",
-  ]
+  ];
 
   const fivehundredFeatures = [
     "Larger, luxury chalets with expansive living spaces",
@@ -22,7 +22,7 @@ export default function ResortPlanSection() {
     "Swimming pool access within the community",
     "Exclusive clubhouse with premium amenities",
     "Gated community with security and power backup",
-  ]
+  ];
 
   return (
     <section className="bg-[#FDF6F0] py-12 sm:py-16 md:py-24">
@@ -30,8 +30,12 @@ export default function ResortPlanSection() {
         <div className="max-w-6xl mx-auto">
           {/* Header */}
           <div className="text-center mb-12 sm:mb-16">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif mb-4">Avon Hills Resort</h2>
-            <p className="text-lg sm:text-xl text-gray-700">Resort Plan & Amenities</p>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif mb-4">
+              Avon Hills Ressort
+            </h2>
+            <p className="text-lg sm:text-xl text-gray-700">
+              Ressort Plan & Amenities
+            </p>
           </div>
 
           {/* Comparison Grid */}
@@ -40,7 +44,7 @@ export default function ResortPlanSection() {
             <div className="relative border-2 border-gray-200 rounded-3xl p-6 sm:p-8 transition-transform duration-300 hover:scale-105">
               <div className="absolute -top-5 left-1/2 -translate-x-1/2">
                 <div className="bg-[#1B4332] text-white px-4 sm:px-6 py-2 rounded-full whitespace-nowrap text-sm sm:text-base">
-                  300-Yard Chalets
+                  200, 300-Yard Chalets
                 </div>
               </div>
 
@@ -79,6 +83,5 @@ export default function ResortPlanSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-

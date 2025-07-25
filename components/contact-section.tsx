@@ -69,7 +69,7 @@ export default function ContactSection() {
               Are you interested?
             </h2>
             <p className="text-lg sm:text-xl text-gray-600">
-              Interested in Avon Hills Resort? Fill out the form below,
+              Interested in Avon Hills Ressort? Fill out the form below,
               <br className="hidden sm:inline" />
               and our team will get in touch with you!
             </p>
@@ -83,7 +83,7 @@ export default function ContactSection() {
                     Thank You for Your Submission!
                   </h3>
                   <p className="text-lg text-gray-600 mb-6">
-                    We appreciate your interest in Avon Hills Resort. Our team
+                    We appreciate your interest in Avon Hills Ressort. Our team
                     will contact you shortly.
                   </p>
                   <Button

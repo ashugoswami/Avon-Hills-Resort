@@ -3,13 +3,13 @@ import { Circle } from "lucide-react";
 
 export default function KeyHighlightsSection() {
   const communityFeatures = [
-    "Community with no apartments",
-    "200, 300 & 500-yard resort plots for spacious living",
+    "Community with no apartments plots",
+    "200, 300 & 500-yard ressort plots for spacious living",
     "50% open areas for a serene and natural environment",
     "Gated and secured community with 24/7 surveillance",
     "Power backup for uninterrupted comfort",
     "World-class landscaping with lush greenery",
-    "Scenic water bodies and ponds within the resort",
+    "Scenic water bodies and ponds within the ressort",
     "Lavish clubhouse with premium amenities",
     "Swimming pool for relaxation and leisure",
     "Surrounded by forested lands for a peaceful retreat",
@@ -39,7 +39,7 @@ export default function KeyHighlightsSection() {
               <span className="text-white/60 text-2xl">~</span>
             </div>
             <h3 className="text-lg sm:text-xl md:text-2xl text-white/90">
-              What Sets Avon Hills Resort Apart?
+              What Sets Avon Hills Ressort Apart?
             </h3>
           </div>
 
@@ -92,7 +92,7 @@ export default function KeyHighlightsSection() {
 
             <div className="space-y-6 sm:space-y-8 order-1 md:order-2">
               <div className="inline-flex items-center bg-white rounded-full pl-4 pr-6 py-2 transition-transform duration-300 hover:scale-105">
-                <span className="text-[#1B4332] font-medium">Your Resort</span>
+                <span className="text-[#1B4332] font-medium">Your Ressort</span>
                 <div className="w-4 h-4 ml-2 rounded-full bg-[#1B4332]"></div>
               </div>
 

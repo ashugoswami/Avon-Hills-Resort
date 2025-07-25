@@ -4,12 +4,12 @@ import { Compass } from "lucide-react";
 export default function WhyChooseSection() {
   const features = [
     {
-      title: "Exclusive Resort Plots",
-      description: "Offering 200, 300 & 500-yard luxury resort spaces",
+      title: "Exclusive Ressort Plots",
+      description: "Offering 200, 300 & 500-yard luxury ressort spaces",
     },
     {
       title: "Scenic Location",
-      description: "Nestled in Rajaji National Park with breathtaking views",
+      description: "Nestled in Shivalik Hills with breathtaking views",
     },
     {
       title: "Luxury Clubhouse",
@@ -53,7 +53,7 @@ export default function WhyChooseSection() {
             {/* Right Side - Features */}
             <div className="space-y-6 sm:space-y-8 mt-8 sm:mt-0">
               <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif mb-6 sm:mb-8">
-                Why Choose Avon Hills Resort?
+                Why Choose Avon Hills Ressort?
               </h2>
 
               <div className="space-y-4 sm:space-y-6">

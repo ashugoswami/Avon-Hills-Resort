@@ -1,6 +1,6 @@
-import Image from "next/image"
-import { MapPin } from "lucide-react"
-import Link from "next/link"
+import Image from "next/image";
+import { MapPin } from "lucide-react";
+import Link from "next/link";
 
 export default function KeyDistanceSection() {
   return (
@@ -11,8 +11,12 @@ export default function KeyDistanceSection() {
             {/* Left Content */}
             <div className="space-y-6 sm:space-y-8">
               <div>
-                <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif mb-2 sm:mb-4">Key Distance</h2>
-                <p className="text-lg sm:text-xl text-gray-700">From Avon Hills Resort</p>
+                <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif mb-2 sm:mb-4">
+                  Key Distance
+                </h2>
+                <p className="text-lg sm:text-xl text-gray-700">
+                  From Avon Hills Ressort
+                </p>
               </div>
 
               <div className="inline-block">
@@ -28,21 +32,26 @@ export default function KeyDistanceSection() {
               <div className="space-y-4 sm:space-y-6">
                 <div className="flex gap-4 transition-transform duration-300 hover:translate-x-2">
                   <MapPin className="w-6 h-6 text-red-500 flex-shrink-0" />
-                  <p className="text-gray-800">3 Hr Drive from Akshardham Expressway Delhi NCR</p>
-                </div>
-
-                <div className="flex gap-4 transition-transform duration-300 hover:translate-x-2">
-                  <MapPin className="w-6 h-6 text-red-500 flex-shrink-0" />
                   <p className="text-gray-800">
-                    Located at an elevation of 12 Acre which makes it a perfect Summer & Winter Destination
+                    3 Hr Drive from Akshardham Expressway Delhi NCR
                   </p>
                 </div>
 
                 <div className="flex gap-4 transition-transform duration-300 hover:translate-x-2">
                   <MapPin className="w-6 h-6 text-red-500 flex-shrink-0" />
                   <p className="text-gray-800">
-                    Within 60 mins driving distance from a number of lakes and key tourist destinations like Rishikesh,
-                    Chakrata, Dehradun, Hathnikund, Mussoorie, Paonta Sahib, Rajaji National Park, etc.
+                    Located at an elevation of 12 Acre which makes it a perfect
+                    Summer & Winter Destination
+                  </p>
+                </div>
+
+                <div className="flex gap-4 transition-transform duration-300 hover:translate-x-2">
+                  <MapPin className="w-6 h-6 text-red-500 flex-shrink-0" />
+                  <p className="text-gray-800">
+                    Within 60 mins driving distance from a number of lakes and
+                    key tourist destinations like Rishikesh, Chakrata, Dehradun,
+                    Hathnikund, Mussoorie, Paonta Sahib, Rajaji National Park,
+                    etc.
                   </p>
                 </div>
               </div>
@@ -64,6 +73,5 @@ export default function KeyDistanceSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-

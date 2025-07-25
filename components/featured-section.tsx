@@ -10,7 +10,7 @@ export default function FeaturedSection() {
             Avon Hills Presents
           </p>
           <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif mb-4 sm:mb-6">
-            Luxury Resort Spaces
+            Luxury Ressort Spaces
           </h2>
           <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-4">
             <span className="text-lg sm:text-xl">200 Yards</span>
@@ -19,7 +19,7 @@ export default function FeaturedSection() {
             <span className="text-lg sm:text-xl">|</span>
             <span className="text-lg sm:text-xl">500 Yards</span>
             <span className="bg-[#2D2D2D] text-white px-3 py-1 rounded-full text-xs sm:text-sm mt-2 sm:mt-0">
-              Luxury Resort
+              Luxury Ressort
             </span>
           </div>
         </div>

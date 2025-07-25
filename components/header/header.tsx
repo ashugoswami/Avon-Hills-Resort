@@ -86,7 +86,7 @@ export default function Header() {
               onClick={() => scrollToSection("resort-plan")}
               className="text-[#1B4332] hover:text-[#2D6A4F] font-medium text-sm uppercase tracking-wide transition-colors duration-300"
             >
-              Resort Plan
+              Ressort Plan
             </button>
             <button
               onClick={() => scrollToSection("location")}
@@ -180,7 +180,7 @@ export default function Header() {
               onClick={() => scrollToSection("resort-plan")}
               className="text-left text-[#1B4332] hover:text-[#2D6A4F] font-medium text-lg transition-colors duration-300"
             >
-              Resort Plan
+              Ressort Plan
             </button>
             <button
               onClick={() => scrollToSection("location")}
@@ -202,7 +202,7 @@ export default function Header() {
               onClick={() => setIsMobileMenuOpen(false)}
             >
               <Phone className="w-5 h-5 mr-3" />
-              <span className="font-medium">706-574-5656</span>
+              <span className="font-medium">+91 759-973-1055</span>
             </a>
           </div>
         </div>
