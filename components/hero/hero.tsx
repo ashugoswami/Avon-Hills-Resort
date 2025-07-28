@@ -59,8 +59,8 @@ export default function Hero() {
           Experience Luxury in Nature
         </h1>
         <p className="text-lg sm:text-xl md:text-2xl mb-8 max-w-3xl">
-          Discover Avon Hills Ressort, where serenity meets sophistication in
-          the heart of Shivalik Hills.
+          Discover Avon Hills Resort, where serenity meets luxury in the heart
+          of Shivalik Hills.
         </p>
         <Button
           onClick={() => setIsInquiryFormOpen(true)}

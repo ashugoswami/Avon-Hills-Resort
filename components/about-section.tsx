@@ -1,4 +1,5 @@
 import Image from "next/image";
+import about from "../assets/Images/Anout  us.png";
 
 export default function AboutSection() {
   return (
@@ -37,7 +38,9 @@ export default function AboutSection() {
             <div className="relative mt-8 sm:mt-0">
               <div className="overflow-hidden">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/about-8SF248HzLWbCtXHHFgiw2KWQcmfyGy.png"
+                  // src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/about-8SF248HzLWbCtXHHFgiw2KWQcmfyGy.png"
+                  src={about}
+                  style={{ borderRadius: "50px" }}
                   alt="Woman photographing mountain views at Avon Hills Resort"
                   width={600}
                   height={400}

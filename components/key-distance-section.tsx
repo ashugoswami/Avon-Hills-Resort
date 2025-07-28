@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { MapPin } from "lucide-react";
+import keyimg from "../assets/Images/key distance.png";
 import Link from "next/link";
 
 export default function KeyDistanceSection() {
@@ -61,7 +62,9 @@ export default function KeyDistanceSection() {
             <div className="relative mt-8 sm:mt-0">
               <div className="overflow-hidden">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/map-yKXJDQoo0xwDbnXnWbQFUtOOVa15vY.png"
+                  // src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/map-yKXJDQoo0xwDbnXnWbQFUtOOVa15vY.png"
+                  src={keyimg}
+                  style={{ borderRadius: "50px" }}
                   alt="Aerial view of Avon Hills Resort layout"
                   width={800}
                   height={600}

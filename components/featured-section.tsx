@@ -1,4 +1,7 @@
 import Image from "next/image";
+import pic1 from "../assets/Images/crd1.png";
+import pic2 from "../assets/Images/crd2.png";
+import pic3 from "../assets/Images/crd3.png";
 
 export default function FeaturedSection() {
   return (
@@ -30,7 +33,9 @@ export default function FeaturedSection() {
           <div>
             <div className="relative h-[550px] sm:h-[580px]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Serenity-UnT9djyslCnlVeINA34Lzf0MGIAaQ0.png"
+                // src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Serenity-UnT9djyslCnlVeINA34Lzf0MGIAaQ0.png"
+                src={pic1}
+                style={{ borderRadius: "50px" }}
                 alt="Woman enjoying mountain view"
                 fill
                 className="object-cover transition-transform duration-300 hover:scale-110"
@@ -42,7 +47,9 @@ export default function FeaturedSection() {
           <div>
             <div className="relative h-[550px] sm:h-[580px]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Mountain-f6RPeLxcFgmMETKG9FKxoFQxCsMA6o.png"
+                // src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Mountain-f6RPeLxcFgmMETKG9FKxoFQxCsMA6o.png"
+                src={pic2}
+                style={{ borderRadius: "50px" }}
                 alt="Woman enjoying mountain view"
                 fill
                 className="object-cover transition-transform duration-300 hover:scale-110"
@@ -54,7 +61,9 @@ export default function FeaturedSection() {
           <div>
             <div className="relative h-[550px] sm:h-[580px]">
               <Image
-                src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/choose-zdUs9KZIWEUP9rWWbL4sgoOfxwmXV7.png"
+                // src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/choose-zdUs9KZIWEUP9rWWbL4sgoOfxwmXV7.png"
+                src={pic3}
+                style={{ borderRadius: "50px" }}
                 alt="Woman enjoying mountain view"
                 fill
                 className="object-cover transition-transform duration-300 hover:scale-110"

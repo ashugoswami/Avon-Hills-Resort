@@ -1,4 +1,5 @@
 import Image from "next/image";
+import whyimg from "../assets/Images/why choose avon.png";
 import { Compass } from "lucide-react";
 
 export default function WhyChooseSection() {
@@ -41,7 +42,9 @@ export default function WhyChooseSection() {
             <div className="relative">
               <div className="overflow-hidden">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/choose-pWLXrFEyYsmMF0Vhr2OdIv1ten8Z4c.png"
+                  // src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/choose-pWLXrFEyYsmMF0Vhr2OdIv1ten8Z4c.png"
+                  src={whyimg}
+                  style={{ borderRadius: "50px" }}
                   alt="Mountain view and branding of Avon Hills Resort"
                   width={600}
                   height={600}
