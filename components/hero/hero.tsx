@@ -2,14 +2,20 @@
 
 import { useState, useEffect, lazy, Suspense } from "react";
 import Image from "next/image";
+import img1 from "../../assets/Images/1.png";
+import img2 from "../../assets/Images/2 (1).png";
+import img3 from "../../assets/Images/3.png";
 import { Button } from "@/components/ui/button";
 
 const InquiryForm = lazy(() => import("./inquiry-form"));
 
 const images = [
-  "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/slide1.jpg-lUIYLzS5JNorCUYKviCehA5Qz7lwvh.jpeg",
-  "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/slide2.jpg-OVplOv9gwEHM9lgwjc1LG6GDJGJcGD.jpeg",
-  "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/slide3.jpg-ByeEySABzvRoYMjugOxfd7Sixxm9X6.jpeg",
+  img1,
+  img2,
+  img3,
+  // "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/slide1.jpg-lUIYLzS5JNorCUYKviCehA5Qz7lwvh.jpeg",
+  // "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/slide2.jpg-OVplOv9gwEHM9lgwjc1LG6GDJGJcGD.jpeg",
+  // "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/slide3.jpg-ByeEySABzvRoYMjugOxfd7Sixxm9X6.jpeg",
 ];
 
 export default function Hero() {
@@ -32,7 +38,7 @@ export default function Hero() {
     <div className="relative h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] overflow-hidden">
       {images.map((src, index) => (
         <div
-          key={src}
+          key={index}
           className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
             index === currentImageIndex ? "opacity-100" : "opacity-0"
           }`}
