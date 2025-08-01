@@ -1,10 +1,12 @@
-"use client"
+"use client";
 
-import { MessageCircle } from "lucide-react"
+import { MessageCircle } from "lucide-react";
 
 export default function WhatsAppButton() {
-  const phoneNumber = "917065745656"
-  const message = encodeURIComponent("Hello, I'm interested in Avon Hills Resort.")
+  const phoneNumber = "917599731055";
+  const message = encodeURIComponent(
+    "Hello, I'm interested in Avon Hills Resort."
+  );
 
   return (
     <a
@@ -16,6 +18,5 @@ export default function WhatsAppButton() {
     >
       <MessageCircle className="w-6 h-6" />
     </a>
-  )
+  );
 }
-
